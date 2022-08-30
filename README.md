@@ -31,6 +31,8 @@ Os alunos devem ser capazes de:
 ### Captura de tela
 
 ![](./Screenshot/mobile.png)
+![](./Screenshot/tablet.png)
+
 
 ### Links
 
@@ -44,6 +46,8 @@ Os alunos devem ser capazes de:
 - HTML5 
 - CSS
 - Flexbox
+- Media queries
+- Mobile-first
 
 ### O que eu aprendi
 
@@ -52,6 +56,9 @@ Neste projeto do curso aprendi e reforcei alguns conhecimentos, como:
 - Aplicar plugins externos através de CDN;
 - Utilizar o plugin SwiperJS;
 - Reforçar o aprendizado de flexbox;
+- Usar media queries;
+- Aplicar diferentes estilos para diferentes tamanhos de tela;
+- Responsivvidade com mobile-first
 
 ``` css
 .cabecalho__menu-hamburguer {
