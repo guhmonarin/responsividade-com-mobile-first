@@ -17,7 +17,7 @@
     <header class="cabecalho">
         <div class="container">
             <input type="checkbox" id="menu" class="container__botao">
-            <label for="menu">
+            <label for="menu" class="container__rotulo">
                 <span class="cabecalho__menu-hamburguer container__imagem"></span>
             </label>
             <ul class="lista-menu">
@@ -44,7 +44,7 @@
 
         <ul class="opcoes">
             <input type="checkbox" id="opcoes-menu" class="opcoes__botao">
-            <label for="opcoes-menu">
+            <label for="opcoes-menu" class="opcoes__rotulo">
                 <li class="opcoes__item">Categorias</li>
             </label>
 
@@ -71,9 +71,17 @@
         </ul>
 
         <div class="container">
-            <a href="#"><img src="./img/Favoritos.svg" alt="Meus favoritos" class="container__imagem container__imagem-transparente"></a>
-            <a href="#"><img src="./img/Compras.svg" alt="Carrinho de compras" class="container__imagem"></a>
-            <a href="#"><img src="./img/Usuário.svg" alt="Meu perfil" class="container__imagem"></a>
+            <a href="#">
+                <img src="./img/Favoritos.svg" alt="Meus favoritos" class="container__imagem container__imagem-transparente">
+            </a>
+            <a href="#" class="container__link">
+                <img src="./img/Compras.svg" alt="Carrinho de compras" class="container__imagem">
+                <p class="container__texto">Minha sacola</p>
+            </a>
+            <a href="#" class="container__link">
+                <img src="./img/Usuário.svg" alt="Meu perfil" class="container__imagem">
+                <p class="container__texto">Meu perfil</p>
+            </a>
         </div>
     </header>
     <section class="banner">
@@ -84,8 +92,8 @@
 
     <section class="carrossel">
         <h2 class="carrossel__titulo">Últimos lançamentos</h2>
-    
-        <div>
+        <div class="carrossel__container">
+            
             <div class="swiper">
                 <!-- Additional required wrapper -->
                 <!-- If we need pagination -->
@@ -121,14 +129,14 @@
                 </ul>
                 <a href="#" class="botoes__ancora">Saiba mais</a>
             </div>
-        </div>
             
+        </div>    
     </section>
 
     <section class="carrossel">
         <h2 class="carrossel__titulo">Mais vendidos</h2>
     
-        <div>
+        <div class="carrossel__container">
             <div class="swiper">
                 <!-- Additional required wrapper -->
                 <!-- If we need pagination -->
@@ -221,7 +229,7 @@
             <li class="lista-rodape__item"><img src="./img/AluraStart.png" alt=”Logo do aluta start”><a href="#" class="lista-rodape__link">Alura Start</a></li>
             <li class="lista-rodape__item"><img src="./img/MusicDot.png" alt=”Logo do musicdot”><a href="#" class="lista-rodape__link">MusicDot</a></li>
             <li class="lista-rodape__item"><img src="./img/AluraLingua.png" alt=”Logo do alura linguas”><a href="#" class="lista-rodape__link">Alura Língua</a></li>
-            <li class=”lista-rodaeé__item”><img src="./img/PM3.png" alt=”Logo do pm3”><a href="#" class="lista-rodape__link">PM3</a></li>
+            <li class="lista-rodape__item"><img src="./img/PM3.png" alt=”Logo do pm3”><a href="#" class="lista-rodape__link">PM3</a></li>
         </ul>
         <ul class="lista-rodape">
             <li class="lista-rodape__titulo">Comunidade</li>

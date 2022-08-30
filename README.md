@@ -32,6 +32,7 @@ Os alunos devem ser capazes de:
 
 ![](./Screenshot/mobile.png)
 ![](./Screenshot/tablet.png)
+![](./Screenshot/desktop.png)
 
 
 ### Links
@@ -59,6 +60,7 @@ Neste projeto do curso aprendi e reforcei alguns conhecimentos, como:
 - Usar media queries;
 - Aplicar diferentes estilos para diferentes tamanhos de tela;
 - Responsivvidade com mobile-first
+- Usar estilos diferentes no mesmo elemento com pseudo-classes.
 
 ``` css
 .cabecalho__menu-hamburguer {
